@@ -1,0 +1,21 @@
+modules:
+  jira:issuePanel:
+    - key: jira-subtask-graph-panel
+      resource: main
+      resolver:
+        function: resolver
+      viewportSize: large
+      title: Subtask Dependency Graph
+      icon: https://developer.atlassian.com/platform/forge/images/issue-panel-icon.svg
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/issue-graph-panel/dist
+permissions:
+  scopes:
+    - write:jira-work
+    - read:jira-work
+app:
+  id: ari:cloud:ecosystem::app/faafcffb-d5ec-4570-a015-37dffaf3254f
