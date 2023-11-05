@@ -1,5 +1,6 @@
 # Jira Dependency Graph
 This project contains a Forge app written in Javascript that visualises "Blocker" relationships between subtasks.
+![image](https://github.com/agiledigital-labs/jira-dependency-graph/assets/1272682/d6f25b7e-030e-4bd1-992a-672e8af94752)
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
